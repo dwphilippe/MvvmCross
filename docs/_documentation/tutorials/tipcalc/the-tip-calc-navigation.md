@@ -254,7 +254,7 @@ public class DetailViewModel : MvxViewModel<DetailNavigationArgs>
 And you should override a method named `Prepare` to receive the parameter:
 
 ```c#
-public void Prepare(DetailNavigationArgs parameter)
+public override void Prepare(DetailNavigationArgs parameter)
 {
     // use the parameters here!
 }
